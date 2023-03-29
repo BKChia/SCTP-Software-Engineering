@@ -10,9 +10,11 @@
 */
 
 function swap(x, y){
-    // Task 1: Add code here
-}
-
-// Task 2: Add code here
+    var x;
+    var y;
+    if (x!=var){print "-1"}
+    if (y!=var){print "-1"}
+    else {print y "," x}
+    
 
 module.exports = swap;
