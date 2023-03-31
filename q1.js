@@ -8,13 +8,15 @@
     Task 2
     - invoke the function "swap"
 */
-
 function swap(x, y){
-    var x;
-    var y;
-    if (x!=var){print "-1"}
-    if (y!=var){print "-1"}
-    else {print y "," x}
-    
+    // Task 1: Add code here
+
+if (typeof x !="number" ) {println ("-1")}
+else if (typeof y !="number" ) {println ("-1")}
+else {println(y + " " + x)}
+}
+// Task 2: Add code here
+
+swap (1,2); 
 
 module.exports = swap;
